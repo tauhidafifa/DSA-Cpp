@@ -9,15 +9,8 @@ bool isSorted(int arr[],int n){
     return true; 
 }
 int main(){
-    int n;
-    cout<<"enter size of array";
-    cin>>n;
-    cout<<endl;
-    int arr[n];
-    cout<<"enter an array of size n";
-    for(int i=0;i<n;i++){
-        cin >>arr[i];
-    } 
-    cout<<isSorted(arr,n);
+    
+    int arr[]={1,2,3,4,5};
+    cout<<isSorted(arr,5);
 
 }
